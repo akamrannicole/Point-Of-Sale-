@@ -23,7 +23,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
-    padding: "10px 20px",
+    padding: "8px 6px",
     backgroundColor: "#2D3748",
     color: "white",
     borderBottom: "1px solid rgba(255,255,255,0.1)",
