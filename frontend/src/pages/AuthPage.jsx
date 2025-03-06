@@ -57,8 +57,9 @@ const AuthPage = () => {
       // Simulating API call
       await new Promise((resolve) => setTimeout(resolve, 2000))
       console.log(isSignUp ? "Sign Up:" : "Sign In:", formData)
-      // Redirect to dashboard
-      window.location.href = "/dashboard.html"
+
+      // Use window.location to navigate to dashboard
+      window.location.href = "/dashboard"
     } catch (error) {
       setError("An error occurred. Please try again.")
     } finally {
@@ -66,7 +67,8 @@ const AuthPage = () => {
     }
   }
 
-  const toggleAuthMode = () => {
+  const toggleAuthMode = (e) => {
+    e.preventDefault()
     setIsSignUp(!isSignUp)
     setError("")
   }
