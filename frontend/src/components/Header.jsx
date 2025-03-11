@@ -56,7 +56,7 @@ const Header = () => {
 
       <style>{`
         .header {
-          background-color: #333333;
+          background-color:#1f2937;
           height: 60px;
           display: flex;
           justify-content: space-between;

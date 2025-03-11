@@ -29,7 +29,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar-header">
-        <h1 className="logo">pharmacare</h1>
+        <h1 className="logo">STyrel</h1>
         <p className="subtitle">PHARMACY MANAGEMENT SYSTEM</p>
       </div>
       <nav className="sidebar-nav">
@@ -52,7 +52,7 @@ const Sidebar = () => {
         .sidebar {
           width: 250px;
           height: 100vh;
-          background-color: #333333;
+          background-color:#1f2937;
           position: fixed;
           left: 0;
           top: 0;

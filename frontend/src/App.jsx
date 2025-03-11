@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Sidebar from "./components/Sidebar"
 import AuthPage from "./pages/AuthPage"
 import Dashboard from "./pages/Dashboard"
+import Header from "./components/Header"
 
 function App() {
   return (
@@ -10,10 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<AuthPage />} />
           <Route
-            path="/dashboard"
-            element={
-              <>
-                <Sidebar />
+            path="/dashboard" element={<> <Sidebar /> <Header/>
                 <main className="main-content">
                   <Dashboard />
                 </main>

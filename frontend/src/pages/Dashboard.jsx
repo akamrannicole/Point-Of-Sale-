@@ -185,7 +185,7 @@ const Dashboard = () => {
         .dashboard {
           min-height: 100vh;
           background: #f9fafb;
-          padding: 20px;
+          padding: 80px;
         }
 
         .stats-container {
