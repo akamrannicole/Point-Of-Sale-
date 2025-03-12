@@ -22,24 +22,7 @@ function App() {
         </Routes>
       </div>
 
-      <style>{`
-        .app {
-          display: flex;
-        }
-
-        .main-content {
-          flex: 1;
-          margin-left: 250px;
-          padding: 20px;
-          min-height: 100vh;
-          background-color: #f9fafb;
-        }
-
-        /* Remove margin for AuthPage */
-        .app > :first-child {
-          margin-left: 0;
-        }
-      `}</style>
+     
     </Router>
   )
 }
